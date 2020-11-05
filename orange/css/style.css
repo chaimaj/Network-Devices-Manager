@@ -1,0 +1,328 @@
+
+* {
+	margin:0;
+	}
+
+html, body {
+	height:100%;
+	background-image:url(../fonds/4.jpg);
+	background-attachment:fixed;
+}
+
+.top-black {
+	height:100px;
+	background-color:black;
+}
+
+.logo img{
+	max-height:150px; 
+	/*margin:-60px auto 20px 410px !important;*/
+	margin-top:-60px;
+	margin-bottom:20px;
+	-webkit-box-shadow: 10px 10px 10px rgba(27, 27, 27, 0.66);
+	box-shadow: 10px 10px 10px rgba(27, 27, 27, 0.66);		}
+
+#main-nav{
+	
+	background-color:#F90;
+	border-right-width:medium;
+border-left-width:medium;
+	border-left-color:#300;
+border-right-color:#300;
+	height:30px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-box-shadow: 10px 10px 15px rgba(27, 27, 27, 0.46);
+	box-shadow: 10px 10px 15px rgba(27, 27, 27, 0.46);
+	}
+#main-nav a{	
+	color:rgb(235, 235, 235);;
+	text-decoration:none;
+	text-transform:capitalize;
+	font-family: 'Droid Sans',Arial,Verdana,sans-serif;
+	font-size: 13px;
+	font-weight:bold;
+	text-shadow: 0 1px 1px black;
+}
+
+#main-nav  a:hover {
+	color:#FFF;
+}
+
+#main-nav.stick {
+ 			position: fixed;
+  			top:0;
+			-webkit-transform: translateZ(0);
+  			z-index: 1000000;
+			min-width:1000px;
+			border-radius:0px 0px 15px 15px;
+  			
+}
+
+#megacontainer {
+	width:1000px; margin:auto; 
+	background-color:white; 
+	margin-top:40px; 
+	/*height:1000%;*/
+	border-radius:15px;
+	-webkit-box-shadow: 10px 10px 15px rgba(27, 27, 27, 0.46);
+	box-shadow: 10px 10px 15px rgba(27, 27, 27, 0.46);
+}
+
+#main-content{
+padding: 10px;	
+}
+
+.wrapper {
+	background-color: transparent;
+	width:1000px; 
+	min-height:100%;
+	height:auto !important;
+	height:100%;
+	margin:0 auto -4em;
+}
+
+.footer-bottom {
+	
+	margin-top: 200px;
+	width:100%;
+	background: #242424;
+	height:4em;
+	line-height: 30px;
+	border-top: 1px solid #111;
+	color: #ccc;
+	bottom:0;
+	
+}
+
+.clear {clear: both;}
+
+
+
+
+
+/*//////////////////////////////////////////////////////////*/
+
+#wrap {
+	font-family:'lucida grande', tahoma, verdana, arial, sans-serif;
+	font-size:11px;
+	margin: 10px;
+}
+
+#wrap h1 { 
+	font-size: 15px;
+}
+
+#wrap h2 { 
+	font-size: 13px;
+}
+
+#wrap a { 
+	color: #548dc4;
+	text-decoration: none;
+}
+
+#wrap h1 a {
+	font-size: 12px;
+	float: right;
+}
+
+#wrap a:hover {
+	text-decoration: underline;
+}
+
+#wrap img {
+	border: 0;
+}
+
+#wrap.ok { 
+	background-color: #0a8819; 
+	color: white; 
+	padding: 5px;
+}
+
+#wrap input.invalid {
+	background: red;
+	color: #FDFDFD;
+}
+
+#message {
+	width: 100%;
+}  
+
+#wrap td.number {
+	text-align: right;
+	font-weight: bold;
+	padding-right: 5px;
+	white-space: nowrap;
+}
+
+#wrap td.boolean {
+	text-align: center;
+}
+
+#wrap th.boolean {
+	text-align: center;
+}
+
+#wrap table.testgrid { 
+	border-collapse: collapse; 
+	border: 1px solid #CCB;
+	width: 100%;
+}
+
+#wrap table.testgrid tr {
+	border-bottom: 1px solid #DDD;
+}
+
+#wrap table.testgrid>tbody tr:hover {
+	background-color: #888888;
+	color: white;
+}
+
+#wrap table.testgrid>tbody tr:hover a {
+	color: white;
+}
+
+#wrap table.testgrid th {
+	background: #E5E5E5;
+	border: 1px solid #D5D5D5;
+	color: #555;
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	white-space: nowrap; 
+}
+
+#wrap table.testgrid td {
+	padding: 5px;
+	border: 1px solid #E0E0E0;
+}
+
+#edition {
+	padding-top: 5px;
+	width: 600px;
+	border: 0px;	
+}
+
+#paginator {
+	font-family:  Helvetica, Arial, sans-serif;
+  	margin: 10px 0;
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#paginator a { color:  #0078cc; text-decoration: none; font-size: 12px; }           
+#paginator a:hover { color: #000; }
+#paginator a:active { color: #777; }
+#paginator a:focus { outline: 1px; }
+
+#filter { 
+	width: 250px;
+	margin-bottom: 10px; 
+}
+
+
+#pagecontrol {
+	padding-bottom: 5px;
+	float: right;
+}
+
+#low-nav{
+	
+	background-color:#666;
+	border-right-width:medium;
+border-left-width:medium;
+	border-left-color:#300;
+border-right-color:#300;
+	height:40px;
+	margin-bottom:10px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-box-shadow: 10px 10px 15px rgba(27, 27, 27, 0.46);
+	box-shadow: 10px 10px 15px rgba(27, 27, 27, 0.46);
+	}
+#low-nav a{	
+	color:rgb(235, 235, 235);;
+	text-decoration:none;
+	text-transform:capitalize;
+	font-family: 'Droid Sans',Arial,Verdana,sans-serif;
+	font-size: 13px;
+	font-weight:bold;
+	text-shadow: 0 1px 1px black;
+}
+
+#low-nav  a:hover {
+	color:#FFF;
+}
+
+#big-menu {
+background-color:rgba(207, 132, 97, 0.47);
+border-radius:15px;
+
+}
+
+#big-menu a{	
+	
+	color:rgb(235, 235, 235);
+	text-decoration:none;
+	text-transform:capitalize;
+	font-family: 'Droid Sans',Arial,Verdana,sans-serif;
+	font-size: 13px;
+	font-weight:bold;
+	text-shadow: 0 1px 1px black;
+}
+
+#big-menu  a:hover {
+	color:#FFF;
+}
+
+.xcb {
+border-color: rgba(0, 0, 0, 0.31);
+border-width: 3px;
+border-collapse: collapse;
+border-style: solid;
+background-color: rgb(216, 74, 18);
+	}
+	
+#big-menu th:hover {
+	background:rgba(255, 72, 0, 0.73); !important;
+}
+
+#big-menu td:hover {
+	background:rgb(248, 76, 8); !important;
+}
+
+body#wimax td#wimaxnav{ 
+	border-bottom-left-radius:15px;
+	border-top-left-radius: 15px;
+	color:#FFF;
+	background:#CCC;}
+	
+body#vsat td#vsatnav,
+body#ipadsl td#ipadslnav,
+body#lsfr td#lsfrnav,
+body#routeurbb td#routeurbbnav,
+body#interface td#interfacenav,
+body#adslpro td#adslpronav,
+body#adslent td#adslentnav,
+body#boutotn td#boutotnnav
+  { 
+	color:#FFF;
+	background:#CCC;}
+	
+body#entrglob td#entrglobnav{ 
+	border-bottom-right-radius:15px;
+	border-top-right-radius: 15px;
+	color:#FFF;
+	background:#CCC;}
+	
+.return { margin-top: 35px; margin-right: 35px; float: right; background: #444; color: #FF6600; -moz-border-radius: 25px; -webkit-border-radius: 25px; border-radius: 25px; padding: 8px 15px; display: block; font-family: Arial; font-size: 16px; font-weight: bold; }
+.return:hover { background: #FF6600; color: #fff; }

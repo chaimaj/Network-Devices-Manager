@@ -1,0 +1,4 @@
+Nom;IP;Interface;Client;LS;FR
+R2D2;1.0.0.0;Fa0/0;Orange;0;1
+R3D2;1.1.1.1;Fa0/1;Carthage;1;0
+R3D3;1.2.3.4;Fa0/2;Tunisair;0;1

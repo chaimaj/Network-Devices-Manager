@@ -1,0 +1,6 @@
+To make this project work on your computer you should
+1. install wampp
+2. activate apache server and mysql
+3. add the project to the folder xampp/htdocs
+4. import the database orange.sql to phpmyadmin, name it "orange" and password "root" so you won't change code
+5. type on your browser http://localhost/orange/

@@ -1,0 +1,4 @@
+zone;secteur;nom;nbclient;criticite
+tunis;marsa;1;25;high
+paris;pigalle;TY;26;LOW
+newyork;washington;po;27;high
