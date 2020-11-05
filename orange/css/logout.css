@@ -1,0 +1,4 @@
+@charset "utf-8";
+/* CSS Document */
+.return { margin-top: 35px; margin-right: 35px; float: right; background: #444; color: #FF6600; -moz-border-radius: 25px; -webkit-border-radius: 25px; border-radius: 25px; padding: 8px 15px; display: block; font-family: Arial; font-size: 16px; font-weight: bold; }
+.return:hover { background: #FF6600; color: #fff; }
