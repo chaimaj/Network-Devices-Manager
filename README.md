@@ -13,3 +13,5 @@ The application is developed in PHP, HTML5, CSS3, javascript, Jquery and the scr
 - Secure login system for admin and normal user
 
 - Add/Delete devices or users (available only for admin)
+
+Demo: https://youtu.be/_r3GI8wmkZ0
